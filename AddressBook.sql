@@ -45,3 +45,7 @@ UPDATE AddressBook set BookName='Book5', BookType='Family' WHERE First_name='Roh
 select * from AddressBook;
 --------------UC10------------------------------------
 select count(First_name) as contacts from AddressBook where BookType='Family';
+--------------UC11------------------------------------
+insert into AddressBook values
+('Shabnam','Parag','Bandra','Mumbai','Maharashtra',123456,'745200166','shabnamp@gmail.com','Book1','Family'),
+('Shabnam','Parag','Bandra','Mumbai','Maharashtra',123456,'745200166','shabnamp@gmail.com','Book3','Friends');
