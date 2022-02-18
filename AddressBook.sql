@@ -43,3 +43,5 @@ UPDATE AddressBook set BookName='Book3', BookType='Friends' WHERE First_name='Je
 UPDATE AddressBook set BookName='Book4', BookType='Profession' WHERE Last_name='Sonavne';
 UPDATE AddressBook set BookName='Book5', BookType='Family' WHERE First_name='Rohini';
 select * from AddressBook;
+--------------UC10------------------------------------
+select count(First_name) as contacts from AddressBook where BookType='Family';
