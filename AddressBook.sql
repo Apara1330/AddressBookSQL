@@ -25,3 +25,13 @@ select First_name,Last_name from AddressBook where City= 'Nashik' or State= 'Mah
 -------------UC7-----------------------------------
 select COUNT(city) as COUNT_OF_ADDRESS_BOOK 
 from AddressBook where city='Nashik' AND state='Maharashtra';
+-------------UC8-----------------------------------
+insert into AddressBook (First_name,Last_name,Address,City,State,Zip,Phone_number,Email) values
+('Pooja','Bhide','M/14 Mahadva Street','Kolhapur','Maharashtra',450013,'8765432199','poojab@gmail.com'),
+('Jeevan','Patil','N/02 Shivaji Peth','Miraj','MP',256791,'8436748890','jPatil@rediffmail.com'),
+('Kiyan','Sonavne','D45 Jabalpur','JB','Haryana',788876,'7896566666','kiyan@gmail.com'),
+('Rohini','Limaye','J56 Kalva','Mumbai','Maharashtra',412233,'9080706000','rlimaye@gmail.com');
+select * from addressbook;
+select First_name,Last_name from AddressBook
+where City='Mumbai'
+order by First_name asc;
