@@ -20,3 +20,5 @@ select * from AddressBook;
 -------------UC5-----------------------------------
 delete from AddressBook where First_name = 'Abhishek' and Last_name= 'Shah';
 select * from AddressBook;
+-------------UC6-----------------------------------
+select First_name,Last_name from AddressBook where City= 'Nashik' or State= 'Maharashtra';
