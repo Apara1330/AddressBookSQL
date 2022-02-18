@@ -17,3 +17,6 @@ insert into addressbook
 -------------UC4-----------------------------------
 update AddressBook set Phone_number = '9850011111' where First_name = 'Amrita'and Last_name = 'Shinde';
 select * from AddressBook;
+-------------UC5-----------------------------------
+delete from AddressBook where First_name = 'Abhishek' and Last_name= 'Shah';
+select * from AddressBook;
