@@ -22,3 +22,6 @@ delete from AddressBook where First_name = 'Abhishek' and Last_name= 'Shah';
 select * from AddressBook;
 -------------UC6-----------------------------------
 select First_name,Last_name from AddressBook where City= 'Nashik' or State= 'Maharashtra';
+-------------UC7-----------------------------------
+select COUNT(city) as COUNT_OF_ADDRESS_BOOK 
+from AddressBook where city='Nashik' AND state='Maharashtra';
