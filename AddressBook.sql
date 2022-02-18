@@ -35,3 +35,11 @@ select * from addressbook;
 select First_name,Last_name from AddressBook
 where City='Mumbai'
 order by First_name asc;
+-------------UC9-------------------------------------
+alter table AddressBook add BookName varchar(50), BookType varchar(50);
+UPDATE AddressBook set BookName='Book1', BookType='Family' WHERE First_name='Amrita';
+UPDATE AddressBook set BookName='Book2', BookType='Family' WHERE Last_name='Bhide';
+UPDATE AddressBook set BookName='Book3', BookType='Friends' WHERE First_name='Jeevan';
+UPDATE AddressBook set BookName='Book4', BookType='Profession' WHERE Last_name='Sonavne';
+UPDATE AddressBook set BookName='Book5', BookType='Family' WHERE First_name='Rohini';
+select * from AddressBook;
