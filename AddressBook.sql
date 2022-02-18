@@ -14,3 +14,6 @@ insert into addressbook
 (First_name,Last_name,Address,City,State,Zip,Phone_number,Email)values
 ('Amrita','Shinde','L/5', 'Nashik','Maharashtra',415001,'9876543210','a.shinde@gmail.com'),
 ('Abhishek','Shah','M/1 Ward','Surat','Gujrat',515611,'7666543333','abhishah@yahoo.com');
+-------------UC4-----------------------------------
+update AddressBook set Phone_number = '9850011111' where First_name = 'Amrita'and Last_name = 'Shinde';
+select * from AddressBook;
